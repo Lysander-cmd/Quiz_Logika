@@ -14,7 +14,22 @@ import java.util.Scanner;
 public class Kuis_Logika {
 
     public static void main(String[] args) {
+        Banding();
+        System.out.println("\n");
+        GanjilGenap();
+        System.out.println("\n");
+        Jumlah();
+        System.out.println("\n");
+        GanjilGenap2();
+        System.out.println("\n");
+        maksimum();
+        System.out.println("\n");
+        mungkin();
+        System.out.println("\n");
         Beda();
+        System.out.println("\n");
+        Buah();
+       
 
     }
 
