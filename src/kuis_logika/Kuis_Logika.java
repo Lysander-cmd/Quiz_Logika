@@ -150,13 +150,10 @@ public class Kuis_Logika {
         //Searches for duplicate element  
         for(int i = 0; i < arr.length; i++) {  
             for(int j = i + 1; j < arr.length; j++) {  
-                if(arr[i] == arr[j]){ 
+                if(arr[i] == arr[j])  
                     System.out.println(arr[j]);  
-            }else{
-                    System.out.println("Tidak ada");  
-                    }
+            }  
         }  
-    }
     }
 
     public static void Buah() {
